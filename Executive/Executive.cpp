@@ -10,7 +10,6 @@
 using namespace XmlProcessing;
 using namespace std;
 
-#ifdef TEST_EXEC
 int main(int argc, char* argv[])
 {
 	string temp,  input_text, ch;
@@ -237,4 +236,3 @@ int main(int argc, char* argv[])
 	}
 	getchar();
 }
-#endif
